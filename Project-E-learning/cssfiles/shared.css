@@ -1,0 +1,56 @@
+body {
+    background-color: #f2e9e4;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Lobster" , sans-serif;
+    width: 160px;
+    font-size: 28px;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    background-color: #c9ada7;
+    border:2px solid black;
+    border-radius: 5px;
+    margin: 8px 20px;
+}
+
+li {
+    margin: 5px 0;
+}
+
+
+nav a {
+    font-size: 20px;  /*1rem = 16px and so on */
+    margin: 0px 32px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #22223b;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+}
+
+img {
+    cursor: pointer;
+    display: flex;
+}
+
+img a {
+    font-size: 20px;  /*1rem = 16px and so on */
+    margin: 0px 32px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #006d77;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+}

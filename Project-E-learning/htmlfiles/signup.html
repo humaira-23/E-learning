@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-learning - Sign-Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/cssfiles/shared.css">
+    <link rel="stylesheet" href="/cssfiles/signup.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">E-Learning</div>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/htmlfiles/blogs.html">Blogs</a>
+            </li>
+            <li>
+                <a href="/htmlfiles/books.html">Books</a>
+            </li>
+            <li>
+                <a href="/htmlfiles/login.html">Log-in</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="signup">
+            <form method="post" action="/data.php">
+                <div class="text">Sign-Up</div>
+                <hr>
+                <div class="username">
+                    <label class="label" for="username">Username: </label>
+                    <input class="inputblank" type="text" placeholder="Please enter the Username" name="username">
+                </div>
+                <div class="email">
+                    <label class="label" for="email">Email: </label>
+                    <input class="inputblank" type="email" placeholder="Please enter your Email" name="email">
+                </div>
+                <div class="password">
+                    <label class="label" for="password">Password: </label>
+                    <input class="inputblank" type="password" placeholder="Please enter your Password" name="password" >
+                </div>
+                <div class="btn">
+                    <button type="submit" name="register">Register</button>
+                </div>
+                <hr>
+                <p class="option">Have an account? <a href="/htmlfiles/login.html">Login Here</a></p>
+            </form>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

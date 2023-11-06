@@ -1,0 +1,50 @@
+.books-row1 {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.books-row2 {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.books-row3 {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.books {
+    width: fit-content;
+    margin: 24px 0 0 32px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color:snow;
+    border: 2px solid #c9ada7;
+    box-shadow: 5px 5px 16px rgba(0,0,0,0.4);
+}
+.books:hover {
+    box-shadow: 5px 5px 16px rgba(0,0,0,0.8);
+}
+
+.book-name {
+    font-size: 16px;
+    font-family: "Spartan";
+    margin: 8px 0 16px 0;
+    color: #22223b;
+}
+
+.book-pic img {
+    width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+a {
+    color: #22223b;
+}

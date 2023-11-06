@@ -1,0 +1,38 @@
+h2 {
+    font-family: "Spartan";
+    font-size: 32px;
+    margin: 0 32px 18px 120px;
+    color: #22223b;
+}
+
+.whole-topic {
+    width: 1200px;
+    background-color: snow;
+    margin: 32px auto;
+    padding: 32px 32px;
+    border: 2px solid #c9ada7;
+    border-radius: 8px;
+}
+
+.videos {
+    margin: 18px 82px;
+}
+
+.explaination {
+    font-family: "Roboto";
+    font-size: 20px;
+    margin: 32px 0;
+    color: #22223b;
+}
+
+.back-btn {
+    font-family: "Roboto";
+    font-size: 24px;
+    margin: 18px 38px;
+    color: #22223b;
+}
+
+.back-btn a {
+    text-decoration: none;
+    color:#22223b;
+}

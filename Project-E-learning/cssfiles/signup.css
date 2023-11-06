@@ -1,0 +1,89 @@
+.signup {
+    justify-content: center;
+    width: fit-content;
+    margin:120px auto;
+    padding: 24px 40px;
+    border-radius: 8px;
+    background-color: #c9ada7;
+    border: 1px solid snow;
+    box-shadow: 5px 5px 16px rgba(0,0,0,0.4);
+}
+
+.username {
+    padding: 4px 0 4px 20px;
+    margin: 8px 0 0 0;
+    font-size: large;
+    font-weight: bolder;
+    color:#22223b;
+}
+
+.email {
+    padding:4px 0 0 52px;
+    margin: 0 0 8px 0;
+    font-size: large;
+    font-weight: bolder;
+    color: #22223b; 
+}
+
+.password {
+    padding: 0 0 4px 24px;
+    margin: 0 0 8px 0;
+    font-size: large;
+    font-weight: bolder;
+    color: #22223b;
+}
+/*
+.cpassword {
+    padding: 4px 0 4px 24px;
+    margin: 0 0 8px 0;
+    font-size: large;
+    font-weight: bolder;
+    color: #22223b;
+}*/
+
+button {
+    background-color:#FFF6EA ;
+    border: 1px solid #22223b;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.inputblank{
+    background-color:#FFF6EA;
+    border:1px solid #22223b;
+    border-radius: 2px;
+    margin: 4px;
+}
+
+.text {
+    text-align: center;
+    font-size:xx-large;
+    font: weight 400px;
+    color: #22223b;
+    margin: 4px;
+}
+
+.btn {
+    text-align: center;
+    padding: 0 0 8px 0;
+    font-size: x-large;
+    color: #22223b;
+}
+
+.option {
+    text-decoration: none;
+    text-align: center;
+    font-size:large;
+    font-weight: 300;
+    color: #22223b;
+    margin: 4px;
+}
+
+p {
+    padding:8px;
+}
+
+form a{
+    text-decoration:underline;
+    color: #22223b;
+}

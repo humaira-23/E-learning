@@ -1,0 +1,73 @@
+.topic-blogs-row1 {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.topic-blogs-row2 {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0;
+}
+
+.topics {
+    width: fit-content;
+    background-color: snow;
+    margin: 24px 0 0 32px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 2px solid #c9ada7;
+}
+
+.topics:hover {
+    box-shadow: 5px 5px 16px rgba(0,0,0,0.4);
+}
+
+.topic-name {
+    font-size: 24px;
+    font-family: "Spartan";
+    margin: 8px 0 16px 0;
+    color: #22223b;
+}
+
+.topic-pic img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+    margin: 8px 0;
+}
+
+.topic-def {
+    font-size: 16px;
+    font-family: "Roboto";
+    width: 350px;
+    margin: 16px 0;
+    color: #22223b;
+}
+
+.topic-exp {
+    font-family: 8px;
+    width: fit-content;
+    padding: 4px;
+    border-radius: 4px;
+    font-family: "Roboto";
+    color: rgb(80, 141, 141);
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.topic-exp a {
+    text-decoration: none;
+    color: rgb(80, 141, 141);
+}
+
+.topic-exp:hover {
+    background-color:#c9ada7;
+    color: white;
+}
+
+.topic-exp a:hover {
+    background-color:#c9ada7;
+    color: white;
+}

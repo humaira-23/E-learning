@@ -1,0 +1,129 @@
+h2 {
+    font-family: "Spartan";
+    color: #22223b;
+    font-size: 32px;
+    margin: 64px 32px 18px 120px;
+}
+
+.phy-topics {
+    width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: snow;
+    font-family: "Roboto";
+    border-radius: 8px;
+}
+
+.chm-topics {
+    width: 1100px;
+    height: 180px;
+    margin: 0 auto;
+    background-color: snow;
+    font-family: "Roboto";
+    border-radius: 8px;
+}
+
+.topicname {
+    margin: 18px;
+    padding-top: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #22223b;
+}
+
+.des {
+    margin: 18px;
+    color: #22223b;
+}
+
+.explore-now {
+    margin: 0 100px 18px 900px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    background-color:#c9ada7;
+    color: white;
+    border: 1px solid #22223b;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.explore-now a {
+    text-decoration: none;
+    color: white;
+}
+
+.explore-now:hover {
+    background-color:lightpink;
+}
+
+.get-access {
+    margin: 0 100px 18px 900px;
+    padding: 8px;
+    width: 100px;
+    text-align: center;
+    background-color: #22223b;
+    border: 1px solid #c9ada7;
+    color: white;
+    border-radius: 4px;
+    cursor: default;
+}
+
+.get-access:hover {
+    background-color:darkslategray ;
+    border: 1px solid #c9ada7;
+}
+
+.overlay {
+    background-color: #c9ada7;
+    position: fixed;
+    top: 200px;
+    left: 350px;
+    width: fit-content;
+    height: fit-content;
+    padding: 32px;
+    color: #22223b;
+    border-radius: 8px;
+    display: none;
+}
+
+#payment {
+    font-family: "Spartan";
+    font-size: 32px;
+    margin: 0 auto 48px auto;
+    color: #22223b;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 60px;
+}
+
+.pay-btn {
+    text-align: right;
+    width: fit-content;
+    font-weight: bold;
+    margin: 18px 48px 0 auto;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pay-btn:hover {
+    background-color: snow;
+    color: #22223b;
+}
+
+.cancel-payment {
+    margin: 18px auto 0 48px;
+    padding: 8px 16px;
+    width: fit-content;
+    border-radius: 4px;
+    cursor: default;
+    font-weight: bold;
+}
+
+.cancel-payment:hover {
+    background-color: snow;
+}
